@@ -13,7 +13,7 @@ public class APITests {
         System.out.println("Response : " + response.asString());
         System.out.println("Status Code is : " + response.getStatusCode());
         System.out.println("Body : " + response.getBody().asString());
-        System.out.println("Time Taken in ms: " + response.getTime());
+        System.out.println("Time Taken in (ms): " + response.getTime());
         System.out.println("Header : " + response.getHeader("content-type"));
 
         int statusCode = response.getStatusCode();
