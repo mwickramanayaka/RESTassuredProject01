@@ -31,4 +31,14 @@ public class APITests {
 
     }
 
+    @Test
+    void test3(){
+
+        given().
+                get("https://reqres.in/api/users?page=2").
+                then().
+                statusCode(200);
+
+    }
+
 }
